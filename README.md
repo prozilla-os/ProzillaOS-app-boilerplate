@@ -37,15 +37,14 @@ This is an overview of the most important files and folders in this project.
 │
 ├── /src
 │   ├── /components  ———————  React components
-│   │   └── App.tsx  ———————————  App component that renders the ProzillaOS component with optional configs
-│   ├── /config  ———————————  Config files for ProzillaOS
-│   ├── /styles  ———————————  Stylesheets
-│   │   └── index.css  —————————  Global stylesheet
+│   │   ├── /demo  ——————————————  Main component of demo website to test app with
+│   │   └── MyApp.tsx  ——————————  Main component of your app
+│   ├── /config/demo  ——————  Config files for demo website
 │   ├── /types  ————————————  TypeScript types
-│   └── index.tsx  —————————  Main entry point that renders the app
+│   └── main.ts  ———————————  Main entry point that defines your app, including metadata
 │
 ├── eslint.config.js  ——  Linting configurations
-├── index.html  ————————  HTML file containing metadata and a link to the main script
+├── index.html  ————————  HTML file for demo websiet
 ├── package.json  ——————  Project metadata and dependencies
 ├── README.md  —————————  You are here
 ├── tsconfig.json  —————  TypeScript configurations
